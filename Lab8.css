@@ -1,0 +1,87 @@
+
+
+*{
+    margin: 0; 
+
+ 
+
+padding: 0; 
+
+ 
+
+} 
+
+ 
+
+ 
+
+ 
+
+.container { 
+
+ 
+
+padding: 10px; 
+
+ 
+
+} 
+
+ 
+
+ 
+
+ 
+
+#img { 
+
+ 
+
+margin: 10px; 
+
+ 
+
+width: 200px; 
+
+ 
+
+} 
+
+ 
+
+ 
+
+ 
+
+#windowWidthHeight { 
+
+ 
+
+margin: 10px; 
+
+ 
+
+background-color:darkgrey; 
+
+ 
+
+padding: 10px; 
+
+ 
+
+display: inline-block; 
+
+ 
+
+} 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+

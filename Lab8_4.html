@@ -1,0 +1,127 @@
+<!DOCTYPE html> 
+
+ 
+
+<html lang="en"> 
+
+ 
+
+<head> 
+
+ 
+
+<meta charset="UTF-8"> 
+
+ 
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+
+ 
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>MEdia Event</title> 
+
+ 
+
+</head> 
+
+ 
+
+<body> 
+
+ 
+
+<div class="conatiner"> 
+
+ 
+
+<video id="video" width="1300" controls> 
+
+ 
+
+<source src="skymedia.mp4" type="video/mp4"> 
+
+ 
+
+</video> 
+
+ 
+
+</div> 
+
+ 
+
+<script> 
+
+ 
+
+const video = document.querySelector("video"); 
+
+ 
+
+video.addEventListener("canplay", function(){ 
+
+ 
+
+alert("Video is ready to play.") 
+
+ 
+
+}); 
+
+ 
+
+video.addEventListener("play", function(){ 
+
+ 
+
+alert("You play video using play button.") 
+
+ 
+
+}); 
+
+ 
+
+video.addEventListener("pause", function(){ 
+
+ 
+
+alert("You pause video using pause button.") 
+
+ 
+
+}); 
+
+ 
+
+video.addEventListener("playing", function(){ 
+
+ 
+
+alert("Video is playing.") 
+
+}); 
+
+ 
+
+video.addEventListener("ended", function(){ 
+
+ 
+
+alert("Thank you so much for watching video.") 
+
+ 
+
+}); 
+
+ 
+
+</script> 
+
+ 
+
+</body> 
+
+ 
+
+</html> 

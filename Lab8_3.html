@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+
+
+<head>
+
+
+
+    <meta charset="UTF-8">
+
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <title>Keyboard Event</title>
+
+
+
+    <style>
+        * {
+
+         margin: 0 ;
+
+
+
+            padding:0;
+
+
+
+        }
+
+
+
+        label {
+
+
+
+            display: block;
+
+
+
+            margin: 20px 0px 0px 10px;
+
+
+
+            font-size: 20px;
+
+
+
+        }
+
+
+
+        input {
+
+
+
+            margin: 10px 0px 0px 10px;
+
+
+
+            border: 2px solid dimgray;
+
+
+
+            padding: 10px;
+
+
+
+            width: 30%;
+
+
+
+            background-color: lightgray;
+
+
+
+            border-radius: 5px;
+
+
+
+        }
+    </style>
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+    <div class="container">
+
+
+
+        <label for="onkeydown">Event onkeydown</label>
+
+
+
+        <input type="text" id="onkeydown" onkeydown="onKeyDown()"> <label for="onkeyup">Event onkeyup</label>
+
+
+
+        <input type="text" id="onkeyup" onkeyup="onKeyUp()"> <label for="onkeypress">Event onkeypress</label>
+
+        <input type="text" id="onkeypress" onkeypress="onKeyPress()">
+
+
+
+    </div>
+
+
+
+    <script>
+
+
+
+        function onKeyDown() {
+
+
+
+            alert("Keyboard key is down.")
+
+
+
+        }
+
+
+
+        function onKeyUp() {
+
+
+
+            alert("keyboard key is up.")
+
+
+
+        }
+
+
+
+        function onKeyPress() {
+
+
+
+            alert("Keyboard key is press.")
+
+
+
+        }
+
+
+
+    </script>
+
+
+
+</body>
+
+
+
+</html>

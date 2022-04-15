@@ -1,0 +1,272 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+ 
+
+<head> 
+       
+    <meta charset="UTF-8"> 
+       
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+       
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     
+        <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+
+        body {
+            font-size: 20px;
+            background-color: #0093E9;
+            background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 18px;
+        }
+
+        a {
+            font-weight: bold;
+            color: red;
+            background-color: yellow;
+        }
+
+        a:hover {
+            font-size: 24px;
+            background-color: white;
+        }
+
+        li {
+            font-style: italic;
+            display: inline;
+        }
+
+        .home-text {
+            font-size: 2.5rem;
+            text-align: center;
+            font-size: 50px;
+        }
+
+        span a {
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 20px;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            background-color: yellow;
+            padding: 20px 0;
+        }
+
+        input[type='radio']:checked+label {
+            background-color: aqua;
+            /* color: red; */
+        }
+
+        input[type='checkbox']:checked+label {
+            background-color: aqua;
+            /* color: red; */
+        }
+
+
+        td {
+            width: 200px;
+            padding: 5px;
+            font-size: 18px;
+            color: black;
+        }
+
+        .tdd {
+            width: 600px;
+        }
+
+        .btn {
+            margin: 0 15px;
+            width: 200px;
+            padding: 10px;
+            font-size: 18px;
+        }
+    </style> 
+        <title>Home</title> 
+</head> 
+ 
+
+<body> 
+     
+        <div> 
+         
+               
+        <!-- title of the website --> 
+                <div> 
+                        <p class="title">Indigo Events Organization</p> 
+                    </div> 
+         
+               
+        <!-- navigation bar --> 
+                <div align="right" style="background-color:aqua; padding: 10px 0;"> 
+                        <ul style="list-style: none;"> 
+                                <li><span><a href="./home.html">Home</a></span></li> 
+                                <li><span><a href="./technical-event.html">Technical Event</a></span></li> 
+                                <li><span><a href="./cultural-event.html">Cultural Event</a></span></li> 
+                                <li><span><a href="./sports-event.html">Sports Event</a></span></li> 
+                                <li><span><a href="./registration.html">Registration</a></span></li> 
+                            </ul> 
+                    </div> 
+         
+               
+        <!-- Registration form --> 
+                <div style="min-height: 478px; width: 800px; margin: 0 auto;"> 
+                        <p align="center" style="font-size: 2.5rem; padding-top: 20px;">Event Registration Form</p> 
+             
+                        <form> 
+                                <fieldset> 
+                                        <legend>Personal Details:</legend> 
+                                        <table> 
+                                                <tr> 
+                                                        <td><label for="name">Name:</label></td> 
+                                                        <td> <input type="text" id="name"></td> 
+                                                    </tr> 
+                                                <tr> 
+                                                        <td><label for="en_no">Enrollment no.:</label></td> 
+                                                        <td> <input type="number" id="en_no"></td> 
+                                                    </tr> 
+                                                <tr> 
+                                                        <td><label for="email">Email ID:</label></td> 
+                                                        <td> <input type="text" id="email"></td> 
+                                                    </tr> 
+                                                <tr> 
+                                                        <td><label for="phone_no">Phone no.:</label></td> 
+                                                        <td> <input type="number" id="phone_no"></td> 
+                                                    </tr> 
+                                                <tr> 
+                                                        <td><label for="date">Date of birth:</label></td> 
+                                                        <td> <input type="date" id="date"></td> 
+                                                    </tr> 
+                                                <tr> 
+                                                        <td><label for="city">City:</label></td> 
+                                                        <td> 
+                                                                <select id="city"> 
+                                                                        <option value="Ahmedabad">Ahmedabad</option> 
+                                                                        <option value="Rajkot">Rajkot</option> 
+                                                                        <option value="Bhavnagar">Bhavnagar</option> 
+                                                                        <option value="Jamnagar">Jamnagar</option> 
+                                                                        <option value="Surendranagar">Surendranagar
+                                    </option> 
+                                                                    </select> 
+                                                            </td> 
+                                                    </tr> 
+                                            </table> 
+                                    </fieldset> 
+                                <br><br> 
+                 
+                                <fieldset> 
+                                        <legend>Educational Details:</legend> 
+                                        <table> 
+                                                <tr> 
+                                                        <td><label for="college">college:</label></td> 
+                                                        <td> 
+                                                                <select id="college"> 
+                                                                        <option value="clg-1">GEC, Bhavnagar</option> 
+                                                                        <option value="clg-2">MSU, Vadodara</option> 
+                                                                        <option value="clg-3">SVIT, Vasad</option> 
+                                                                    </select> 
+                                                            </td> 
+                                                    </tr> 
+                                                <tr> 
+                                                        <td><label for="sem">Semester:</label></td> 
+                                                        <td class="tdd"> 
+                                                                <input type="radio" id="sem1" name="fav_language"> 
+                                                                <label for="sem1">1</label>                            
+                                    
+                                 
+                                                                <input type="radio" id="sem2" name="fav_language"> 
+                                                                <label for="sem2">2</label> 
+                                 
+                                                                <input type="radio" id="sem3" name="fav_language"> 
+                                                                <label for="sem3">3</label> 
+                                 
+                                                                <input type="radio" id="sem4" name="fav_language"> 
+                                                                <label for="sem4">4</label> 
+                                 
+                                                                <input type="radio" id="sem5" name="fav_language"> 
+                                                                <label for="sem5">5</label> 
+                                 
+                                                                <input type="radio" id="sem6" name="fav_language"> 
+                                                                <label for="sem6">6</label> 
+                                 
+                                                                <input type="radio" id="sem7" name="fav_language"> 
+                                                                <label for="sem7">7</label> 
+                                 
+                                                                <input type="radio" id="sem8" name="fav_language"> 
+                                                                <label for="sem8">8</label> 
+                                                            </td> 
+                                                    </tr> 
+                                            </table> 
+                                    </fieldset> 
+                                <br><br> 
+                 
+                                <fieldset> 
+                                        <legend>Event Details:</legend> 
+                                        <table> 
+                                                <tr> 
+                                                        <td><label for="name">Events:</label></td> 
+                                                        <td> 
+                                                                <input type="checkbox" id="event1"> 
+                                                                <label for="event1"> Technical Event</label><br> 
+                                                                <input type="checkbox" id="event2"> 
+                                                                <label for="event2"> Cultural Event</label><br> 
+                                                                <input type="checkbox" id="event3"> 
+                                                                <label for="event3"> Sports Event</label><br> 
+                                                            </td> 
+                                                    </tr> 
+                                            </table> 
+                                    </fieldset> 
+                                <br><br> 
+                 
+                                <fieldset> 
+                                        <legend>Login Details:</legend> 
+                                        <table> 
+                                                <tr> 
+                                                        <td><label for="username">Username:</label></td> 
+                                                        <td> <input type="text" id="username"></td> 
+                                                    </tr> 
+                                                <tr> 
+                                                        <td><label for="password">Password:</label></td> 
+                                                        <td> <input type="password" id="password"></td> 
+                                                    </tr> 
+                                            </table> 
+                                    </fieldset> 
+                                <br><br><br> 
+                 
+                                <div align="center"> 
+                                        <button class="btn" type="submit" value="Submit">Submit</button> 
+                                        <button class="btn" type="reset" value="Reset">Reset</button> 
+                                    </div> 
+                                <br><br> 
+                            </form> 
+             
+                    </div> 
+         
+               
+        <!-- marqee text --> 
+                <marquee style="padding: 10px; background-color: aqua;" direction="right">For more details, Visit 
+                        <a href="http://www.gecbh.cteguj.in/">GEC BHAVNAGAR OFFICIAL WEBSITE</a> 
+                    </marquee> 
+         
+           
+    </div> 
+     
+</body> 
+ 
+
+</html> 

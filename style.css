@@ -1,0 +1,61 @@
+#paragraph { 
+
+    padding: 10px; 
+
+    border: 2px solid black; 
+
+    display: inline-block; 
+
+    background-color: white; 
+
+    border-radius: 5px; 
+
+} 
+
+.btnproperty{ 
+
+    padding: 5px 10px; 
+
+    border: 2px solid black; 
+
+    border-radius: 4px; 
+
+    margin: 0px 10px 0px 0px; 
+
+} 
+
+#blue{ 
+
+    color: white; 
+
+    background-color: blue; 
+
+} 
+
+#red{ 
+
+    color: white; 
+
+    background-color: red; 
+
+} 
+
+#green{ 
+
+    color: white; 
+
+    background-color: green; 
+
+} 
+
+#yellow{ 
+
+    background-color: yellow; 
+
+} 
+
+#reset{ 
+
+    background-color: white; 
+
+} 
